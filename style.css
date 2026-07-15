@@ -93,6 +93,7 @@ input {
     background-color: rgba(0, 0, 255, 0.2);
     border-radius: 15px;
     font-weight: 700;
+    cursor: pointer;
 }
 .input-submit-btn {
 
