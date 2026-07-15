@@ -127,3 +127,170 @@ input {
 .box-content {
 
 }
+
+/* Set RESPONSIVE MEDIA */
+/* Tablets and smaller screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+    .btn-refresh-home {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .btn {
+        width: 70px;
+        font-size: 0.9rem;
+    }
+    .refresh-btn {
+        height: 40px;
+    }
+    .home-btn {
+        height: 32px;
+        padding-top: 8px;
+    }
+
+    .input-note {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .input-text {
+        width: 100%;
+        max-height: 45px;
+        padding-left: 15px;
+        font-size: 1rem;
+    }
+    .input-btn {
+        width: 80px;
+        height: 40px;
+        font-size: 0.95rem;
+        flex: 0 1 auto;
+    }
+}
+
+/* Mobile phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 12px;
+        gap: 10px;
+        border-radius: 8px;
+    }
+    .title {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .btn-refresh-home {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5px;
+    }
+    .btn {
+        width: 60px;
+        font-size: 0.8rem;
+        padding: 5px 0;
+        border-radius: 12px;
+    }
+    .refresh-btn {
+        height: 36px;
+    }
+    .home-btn {
+        height: 30px;
+        padding-top: 6px;
+    }
+
+    .input-note {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+    .input-text {
+        width: 100%;
+        max-height: 40px;
+        padding-left: 12px;
+        font-size: 0.95rem;
+        border-radius: 8px;
+    }
+    .input-btn {
+        width: 100%;
+        height: 38px;
+        font-size: 0.9rem;
+        border-radius: 12px;
+    }
+
+    .show-note {
+        margin-top: 15px;
+        gap: 8px;
+    }
+    .box-note {
+        padding: 15px;
+        border-radius: 8px;
+        overflow: auto;
+    }
+    .box-title {
+        font-size: 1.1rem;
+    }
+    .box-content {
+        font-size: 0.95rem;
+    }
+}
+
+/* Very small devices (max-width: 360px) – extra adjustments */
+@media screen and (max-width: 360px) {
+    .container {
+        padding: 10px;
+    }
+    .title {
+        font-size: 1.4rem;
+    }
+    .btn {
+        width: 50px;
+        font-size: 0.7rem;
+    }
+    .refresh-btn {
+        height: 32px;
+    }
+    .home-btn {
+        height: 28px;
+        padding-top: 5px;
+    }
+    .input-text {
+        font-size: 0.85rem;
+        padding-left: 10px;
+    }
+    .input-btn {
+        height: 34px;
+        font-size: 0.8rem;
+    }
+    .box-note {
+        padding: 12px;
+    }
+    .box-title {
+        font-size: 1rem;
+    }
+    .box-content {
+        font-size: 0.85rem;
+    }
+}
